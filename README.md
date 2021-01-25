@@ -19,6 +19,14 @@ It is used for creating a new item
 
 Listing the files and directories
 
+
+## Curl Commands
+
+- curl "https://en.wikipedia.org/wiki/Indian_Premier_League" -O
+
+- curl "https://en.wikipedia.org/wiki/Indian_Premier_League" -O "data.txt"
+
+
 ## Bash Commands
 
 - tr ' ' '\12' < returnedfile
@@ -40,12 +48,6 @@ Piping the reduced output to sort with -nr flag
 - tr ' ' '\12' < returnedfile | sort | uniq -c | sort -nr > result.txt
 
 Redirecting the output to result.txt
-
-## Curl Commands
-
-- curl "https://en.wikipedia.org/wiki/Indian_Premier_League" -O
-
-- curl "https://en.wikipedia.org/wiki/Indian_Premier_League" -O "data.txt"
 
 ## File Links
 
