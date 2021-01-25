@@ -41,6 +41,12 @@ Piping the reduced output to sort with -nr flag
 
 Redirecting the output to result.txt
 
+## Curl Commands
+
+- curl "https://en.wikipedia.org/wiki/Indian_Premier_League" -O
+
+- curl "https://en.wikipedia.org/wiki/Indian_Premier_League" -O "data.txt"
+
 ## File Links
 
 [data file](data.txt)
